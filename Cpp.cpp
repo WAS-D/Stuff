@@ -8,7 +8,7 @@ void Function() {
     //code to be executed
 }
 int main() {
-    Function()
+    Function() //executes a function
     std::cout << /*Console out*/;
-    std::getline (std::cin,/*a string*/) //Exports input to a string.
+    std::getline (std::cin,/*a string*/); //Exports input to a string.
 }
