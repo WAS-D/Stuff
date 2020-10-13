@@ -15,7 +15,7 @@ namespace data {
     string Id7 = "#";
     string Id8 = "#";
     string null;
-    string xo;
+    string xo = NULL;
 }
 
 int main() {
@@ -24,5 +24,8 @@ int main() {
     getline(cin, null);
     cout << "X or Os? :";
     getline(cin, xo);
+    do { 
+        cout << "I'm sorry, please repeat that.\n X or Os?";
+    } while (xo != "X"|"O");
     cout << "So " << xo << "? Great!\n";
 }
